@@ -50,7 +50,7 @@ export const CharactersList = () => {
     return (
       <ul>
         {
-          //No entendí cómo caambiar CharacterCard por el li
+          //No entendí cómo cambiar CharacterCard por el li
           character.map((item) => (
             <li key={item.id}>
               <img src={item.image} alt="imagen del personaje"/> <br/>
