@@ -1,3 +1,4 @@
+//disculpe profe no entendí como implementar esta sección
 function CharacterCard({id, image, name}){
   
     return (
