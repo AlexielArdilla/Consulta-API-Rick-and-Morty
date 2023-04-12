@@ -1,14 +1,13 @@
-//disculpe profe no entendí como implementar esta sección
-function CharacterCard({id, image, name}){
-  
-    return (
+import React from 'react'
+
+export const CharacterCard = ({ name, image }) => {
+  return (
+    <li>
+      <img src={ image } alt="personaje de Rick y Morty" />
       <div>
-        <img src={image} alt="imagen del  producto"/>
-        <h1>Nombre{name}</h1>
-        <p>ID{id}</p>
+        <span>{ name }</span>
       </div>
-    );
-  }
-  
-  export default CharacterCard
+    </li>
+  )
+}
 
