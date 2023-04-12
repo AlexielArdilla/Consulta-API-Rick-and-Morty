@@ -35,7 +35,8 @@ export const CharactersList = () => {
         character.map((item) => (
           <CharacterCard
             key={ item.id }
-            {...item}
+            image= {item.image}
+            name={item.name}
           />
         ))
       }
